@@ -1,0 +1,45 @@
+.header {
+  padding: 128px 16px;
+  text-align: center;
+  &__title {
+    margin: 10px auto;
+    font-size: 40px;
+    font-weight: 500;
+    text-wrap: balance;
+  }
+
+  p {
+    text-align: center;
+    margin: 15px auto;
+  }
+
+  &__photo {
+    height: auto;
+    max-width: 100%;
+    border-radius: 4px;
+
+    @media (max-width: 600px) {
+      &--hide-small {
+        display: none !important;
+      }
+    }
+
+    @media (min-width: 601px) and (max-width: 992px) {
+      &--hide-medium {
+        display: none !important;
+      }
+    }
+
+    @media (min-width: 993px) {
+      &--hide-large {
+        display: none !important;
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    &__title {
+      font-size: 64px;
+    }
+  }
+}

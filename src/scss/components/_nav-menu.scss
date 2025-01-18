@@ -1,0 +1,43 @@
+.nav-menu {
+  display: none;
+  position: fixed;
+  right: 0;
+  height: 100%;
+  width: 60%;
+  padding-top: 150px;
+  background-color: #000;
+  color: white;
+  overflow: auto;
+  z-index: 1;
+  animation: animateright 0.4s;
+
+  &__btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 16px 14px;
+    background: white;
+    border: none;
+    outline: none;
+
+    &--close {
+      background-color: inherit;
+    }
+
+    img {
+      width: 36px;
+      height: 36px;
+    }
+  }
+}
+
+@keyframes animateright {
+  0% {
+    right: -300px;
+    opacity: 0;
+  }
+  100% {
+    right: 0;
+    opacity: 1;
+  }
+}

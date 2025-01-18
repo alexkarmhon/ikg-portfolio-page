@@ -2,12 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/javascript.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>I_K-H Portfolio</title>
   </head>
   <body>
-    <h1>hello</h1>
+    <aside class="sidebar-image">
+      <div class="sidebar-image__image"></div>
+    </aside>
+    <nav id="nav-menu" class="nav-menu">
+      <button
+        id="close-nav-btn"
+        type="button"
+        class="nav-menu__btn nav-menu__btn--close"
+      >
+        <img src="/icons/close.svg" alt="" />
+      </button>
+    </nav>
+    <main class="main">
+      <button
+        id="open-nav-btn"
+        type="button"
+        class="nav-menu__btn nav-menu__btn--menu"
+      >
+        <img src="/icons/bars.svg" alt="" />
+      </button>
+      <header id="home" class="header">
+        <h1 class="header__title">Iryna Karmazinova-Honcharenko</h1>
+        <p>Photographer and Web Designer.</p>
+        <img
+          class="header__photo header__photo--hide-large header__photo--hide-small"
+          src="/images/IMG_20250116_152135_941.jpg"
+          alt="profile photo"
+          style="display: block; width: 60%; margin: auto"
+        />
+        <img
+          class="header__photo header__photo--hide-large header__photo--hide-medium"
+          src="/images/IMG_20250116_152135_941.jpg"
+          alt="profile photo"
+          width="1000"
+          height="1333"
+        />
+        <button class="main-button main-button--dark">Download Resume</button>
+      </header>
+    </main>
     <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>

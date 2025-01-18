@@ -1,2 +1,8 @@
-@use '../../node_modules/normalize-scss/sass/normalize';
 @use './base/common';
+@use './base/fa-icons';
+
+@use './components/sidebar';
+@use './components/nav-menu';
+@use './components/buttons';
+
+@use './layouts/header';
