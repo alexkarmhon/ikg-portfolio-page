@@ -31,4 +31,15 @@ button {
       background-color: #ccc;
     }
   }
+
+  &__span {
+    display: flex;
+    align-items: center;
+  }
+  &__span-icon {
+    display: inline-block;
+    margin-right: 4px;
+    width: 18px;
+    height: 18px;
+  }
 }

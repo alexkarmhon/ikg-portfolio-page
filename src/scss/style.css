@@ -1,13 +1,11 @@
-:root {
+* {
+  box-sizing: border-box;
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-size: 15px;
   font-style: normal;
   line-height: 1.5;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 h1,
@@ -143,6 +141,16 @@ button {
 }
 .main-button--dark:hover {
   background-color: #ccc;
+}
+.main-button__span {
+  display: flex;
+  align-items: center;
+}
+.main-button__span-icon {
+  display: inline-block;
+  margin-right: 4px;
+  width: 18px;
+  height: 18px;
 }
 
 .header {
