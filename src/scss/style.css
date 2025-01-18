@@ -59,7 +59,7 @@ main {
   overflow: auto;
 }
 .sidebar-image__image {
-  background-image: url("images/IMG_20250116_152135_941.jpg");
+  background-image: url("/images/IMG_20250116_152135_941.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
