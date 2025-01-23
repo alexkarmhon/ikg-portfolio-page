@@ -25,6 +25,10 @@ h6,
 p {
   margin: 0;
   padding: 0;
+
+  & strong {
+    font-weight: 600;
+  }
 }
 
 ul,
@@ -68,6 +72,11 @@ section {
   margin: 10px 0;
   color: vars.$main-gray-color;
 }
+.section-subtitle {
+  font-size: 24px;
+  margin: 10px 0;
+  color: vars.$main-gray-color;
+}
 
 .breaking-line {
   height: 0;
@@ -77,4 +86,8 @@ section {
   box-sizing: content-box;
   overflow: visible;
   opacity: 0.6;
+}
+
+.accent {
+  letter-spacing: 2px;
 }

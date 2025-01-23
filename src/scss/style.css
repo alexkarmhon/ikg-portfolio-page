@@ -23,6 +23,15 @@ p {
   margin: 0;
   padding: 0;
 }
+h1 strong,
+h2 strong,
+h3 strong,
+h4 strong,
+h5 strong,
+h6 strong,
+p strong {
+  font-weight: 600;
+}
 
 ul,
 ol {
@@ -66,6 +75,12 @@ section {
   color: #757575;
 }
 
+.section-subtitle {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #757575;
+}
+
 .breaking-line {
   height: 0;
   margin: 20px 0;
@@ -74,6 +89,10 @@ section {
   box-sizing: content-box;
   overflow: visible;
   opacity: 0.6;
+}
+
+.accent {
+  letter-spacing: 2px;
 }
 
 .sidebar {
@@ -200,7 +219,7 @@ button {
 }
 
 .header {
-  padding: 128px 16px;
+  padding: 96px 16px;
   text-align: center;
 }
 .header__title {
@@ -248,4 +267,16 @@ button {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.about__text {
+  font-size: 15px;
+  color: #757575;
+  margin-bottom: 4px;
+}
+.about__tools-list {
+  display: flex;
+  padding: 0;
+  width: 100%;
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */

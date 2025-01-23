@@ -1,0 +1,16 @@
+@use '../base/vars';
+
+.about {
+  &__text {
+    font-size: 15px;
+    color: vars.$main-gray-color;
+    margin-bottom: 4px;
+  }
+
+  &__tools-list {
+    display: flex;
+    padding: 0;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
