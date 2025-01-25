@@ -13,6 +13,10 @@
   z-index: 1;
   animation: animateright 0.4s;
 
+  &.is-visible {
+    display: block;
+  }
+
   &__btn {
     position: absolute;
     top: 0;

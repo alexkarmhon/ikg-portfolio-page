@@ -1,12 +1,12 @@
 const menu = document.getElementById('nav-menu');
 
 const openMenu = () => {
-  menu.style.display = 'block';
+  menu.classList.add('is-visible');
 };
 
 const closeMenu = () => {
-  menu.style.display = 'none';
+  menu.classList.remove('is-visible');
 };
 
-window.closeMenu = closeMenu;
-window.openMenu = openMenu;
+document.getElementById('open-menu-btn').addEventListener('click', openMenu);
+document.getElementById('close-menu-btn').addEventListener('click', closeMenu);
