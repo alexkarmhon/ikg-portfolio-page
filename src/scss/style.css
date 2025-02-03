@@ -35,7 +35,14 @@ p strong {
 
 ul,
 ol {
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #757575;
 }
 
 img {
@@ -104,7 +111,7 @@ section {
   overflow: auto;
 }
 .sidebar__image {
-  background-image: url("/images/IMG_20250116_152135_941.jpg");
+  background-image: url("/images/main-photo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -128,6 +135,9 @@ section {
   overflow: auto;
   z-index: 1;
   animation: animateright 0.4s;
+}
+.nav-menu.is-visible {
+  display: block;
 }
 .nav-menu__btn {
   position: absolute;
@@ -193,9 +203,10 @@ button {
   padding: 12px 24px;
   margin-top: 16px;
   border: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
+  width: -moz-max-content;
+  width: max-content;
+  max-width: 250px;
   overflow: hidden;
   text-decoration: none;
   text-align: center;
@@ -219,6 +230,9 @@ button {
 }
 
 .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 96px 16px;
   text-align: center;
 }
@@ -275,8 +289,38 @@ button {
   margin-bottom: 4px;
 }
 .about__tools-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
   padding: 0;
   width: 100%;
-  justify-content: space-around;
+}
+.about__tools-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: #757575;
+}
+
+.contact__address {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.contact__address-link--location::before {
+  content: url("/public/icons/map-marker.svg");
+}
+.contact__address-link--phone::before {
+  content: url("/public/icons/phone.svg");
+}
+.contact__address-link--email::before {
+  content: url("/public/icons/envelope.svg");
+}
+.contact__address-link--location::before, .contact__address-link--phone::before, .contact__address-link--email::before {
+  position: relative;
+  left: 0;
+  bottom: -4px;
+  margin-right: 20px;
 }/*# sourceMappingURL=style.css.map */

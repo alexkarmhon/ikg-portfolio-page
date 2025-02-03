@@ -1,0 +1,26 @@
+.contact {
+  &__address {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  &__address-link {
+    &--location::before {
+      content: url('/public/icons/map-marker.svg');
+    }
+    &--phone::before {
+      content: url('/public/icons/phone.svg');
+    }
+    &--email::before {
+      content: url('/public/icons/envelope.svg');
+    }
+
+    &--location::before,
+    &--phone::before,
+    &--email::before {
+      position: relative;
+      left: 0;
+      bottom: -4px;
+      margin-right: 20px;
+    }
+  }
+}
