@@ -1,6 +1,78 @@
+/*montserrat-100*/
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100;
+  src: local("Montserrat"), url("/fonts/Montserrat-Thin-100.woff2") format("woff2");
+}
+/*montserrat-200*/
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Montserrat"), url("/fonts/Montserrat-ExtraLight-200.woff2") format("woff2");
+}
+/*montserrat-300*/
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Montserrat"), url("/fonts/Montserrat-Light-300.woff2") format("woff2");
+}
+/*montserrat-400*/
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat"), url("/fonts/Montserrat-Regular-400.woff2") format("woff2");
+}
+/*montserrat-500*/
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: local("Montserrat"), url("/fonts/Montserrat-Medium-500.woff2") format("woff2");
+}
+/*montserrat-600*/
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local("Montserrat"), url("/fonts/Montserrat-SemiBold-600.woff2") format("woff2");
+}
+/*montserrat-700*/
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat"), url("/fonts/Montserrat-Bold-700.woff2") format("woff2");
+}
+/*montserrat-800*/
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 800;
+  src: local("Montserrat"), url("/fonts/Montserrat-ExtraBold-800.woff2") format("woff2");
+}
+/*montserrat-900*/
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 900;
+  src: local("Montserrat"), url("/fonts/Montserrat-Black-900.woff2") format("woff2");
+}
 * {
   box-sizing: border-box;
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", Arial, sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-size: 15px;
@@ -9,6 +81,8 @@
 }
 
 body {
+  min-height: 100vh;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
 }
@@ -111,7 +185,7 @@ section {
   overflow: auto;
 }
 .sidebar__image {
-  background-image: url("/images/main-photo.jpg");
+  background-image: url("/images/main-photo.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
