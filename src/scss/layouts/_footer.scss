@@ -1,0 +1,16 @@
+.footer {
+  padding: 64px 16px;
+  background-color: #f1f1f1;
+
+  &__social {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  &__social-icon {
+    width: 24px;
+    height: 24px;
+    fill: red;
+  }
+}

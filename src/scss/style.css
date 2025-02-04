@@ -133,6 +133,7 @@ img img[style*="width: 1000px"] {
 
 main {
   margin-left: 40%;
+  margin-bottom: 64px;
   padding: 12px 24px;
   transition: margin-left 0.4s;
 }
@@ -397,4 +398,38 @@ button {
   left: 0;
   bottom: -4px;
   margin-right: 20px;
+}
+.contact__text {
+  font-size: 15px;
+  color: #757575;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.contact__form button {
+  margin-top: 0;
+}
+.contact__form-input {
+  width: 100%;
+  padding: 16px 8px;
+  border: 1px solid #757575;
+}
+
+.footer {
+  padding: 64px 16px;
+  background-color: #f1f1f1;
+}
+.footer__social {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+.footer__social-icon {
+  width: 24px;
+  height: 24px;
+  fill: red;
 }/*# sourceMappingURL=style.css.map */

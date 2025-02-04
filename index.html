@@ -7,9 +7,11 @@
     <title>I_K-H Portfolio</title>
   </head>
   <body>
+    <!-- Sidebar with image -->
     <aside class="sidebar">
       <div class="sidebar__image"></div>
     </aside>
+    <!-- Navigation menu -->
     <nav id="nav-menu" class="nav-menu">
       <button
         id="close-menu-btn"
@@ -45,6 +47,7 @@
         </li>
       </ul>
     </nav>
+    <!-- Main content -->
     <main class="main">
       <button
         id="open-menu-btn"
@@ -59,6 +62,7 @@
           height="24px"
         />
       </button>
+      <!-- Hidden header with image -->
       <header id="home" class="header">
         <h1 class="header__title">Iryna Karmazinova-Honcharenko</h1>
         <p>Graphic designer. UI/UX & Web-designer. Illustrator.</p>
@@ -92,6 +96,7 @@
           </span>
         </button>
       </header>
+      <!-- Portfolio Section -->
       <section id="portfolio" class="portfolio">
         <h2 class="portfolio__title section-title">My Portfolio</h2>
         <hr class="portfolio__divider breaking-line" />
@@ -246,6 +251,7 @@
           </div>
         </div>
       </section>
+      <!-- About Section -->
       <section id="about" class="about">
         <h2 class="about__title section-title">About Me</h2>
         <hr class="about__divider breaking-line" />
@@ -386,6 +392,7 @@
           </span>
         </button>
       </section>
+      <!-- Contact Section -->
       <section id="contact" class="contact">
         <h2 class="section-title">Contact Me</h2>
         <hr class="breaking-line" />
@@ -414,15 +421,86 @@
           </ul>
         </address>
         <img
-          src="/images/kharkiv-map.webp"
+          src="./public/images/kharkiv-map.webp"
           alt="map of Kharkiv, Ukraine"
           width="1100px"
           aspect-ratio="16/9"
           loading="lazy"
         />
+        <p class="contact__text">Let's get in touch! Send me a message:</p>
+        <form class="contact__form">
+          <input
+            class="contact__form-input"
+            type="text"
+            placeholder="Name"
+            required
+          />
+          <input
+            class="contact__form-input"
+            type="email"
+            placeholder="Email"
+            required
+          />
+          <input
+            class="contact__form-input"
+            type="text"
+            placeholder="Subject"
+            required
+          />
+          <input
+            class="contact__form-input"
+            type="text"
+            placeholder="Message"
+            required
+          />
+          <button class="main-button main-button--dark" type="submit">
+            <span class="main-button__span"
+              ><img
+                class="main-button__span-icon"
+                src="/icons/paper-plane.svg"
+                alt="send icon"
+                loading="lazy"
+                width="16px"
+                height="16px"
+              />SEND MESSAGE</span
+            >
+          </button>
+        </form>
       </section>
-      <footer></footer>
     </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <ul class="footer__social">
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="">
+            <svg class="footer__social-icon">
+              <use href="/public/icons/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="">
+            <svg class="footer__social-icon">
+              <use href="/public/icons/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="">
+            <svg class="footer__social-icon">
+              <use href="/public/icons/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="">
+            <svg class="footer__social-icon">
+              <use href="/public/icons/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </footer>
     <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>
