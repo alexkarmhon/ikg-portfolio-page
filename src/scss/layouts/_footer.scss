@@ -1,16 +1,37 @@
+@use '../base/vars';
+
 .footer {
   padding: 64px 16px;
+  margin-left: 40%;
+  transition: margin-left 0.4s;
   background-color: #f1f1f1;
 
   &__social {
     display: flex;
-    gap: 12px;
+    gap: 8px;
     justify-content: center;
+    margin-bottom: 16px;
   }
 
   &__social-icon {
-    width: 24px;
-    height: 24px;
-    fill: red;
+    width: 28px;
+    height: 28px;
+    fill: vars.$main-gray-color;
+  }
+
+  &__text {
+    text-align: center;
+    color: vars.$main-gray-color;
+
+    a {
+      color: #68b1ce;
+      font-weight: bold;
+      border-bottom: 1px solid #68b1ce;
+    }
+  }
+
+  @media (max-width: 992px) {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
