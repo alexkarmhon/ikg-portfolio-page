@@ -1,0 +1,13 @@
+{
+  "build": {
+    "env": {
+      "VITE_BASE_PATH": "/ikg-portfolio-page/"
+    }
+  },
+  "routes": [
+    {
+      "src": "/ikg-portfolio-page/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
