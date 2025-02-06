@@ -83,7 +83,11 @@
           aspect-ratio="3/4"
           loading="lazy"
         />
-        <button class="main-button main-button--dark">
+        <a
+          class="main-button main-button--dark"
+          href="/КHІ_designer.pdf"
+          download
+        >
           <span class="main-button__span">
             <img
               class="main-button__span-icon"
@@ -94,7 +98,7 @@
               loading="lazy"
             />Download Resume
           </span>
-        </button>
+        </a>
       </header>
       <!-- Portfolio Section -->
       <section id="portfolio" class="portfolio">
@@ -379,7 +383,11 @@
           </p>
         </div>
 
-        <button class="main-button main-button--dark">
+        <a
+          class="main-button main-button--dark"
+          href="/КHІ_designer.pdf"
+          download
+        >
           <span class="main-button__span">
             <img
               class="main-button__span-icon"
@@ -390,7 +398,7 @@
               loading="lazy"
             />Download Resume
           </span>
-        </button>
+        </a>
       </section>
       <!-- Contact Section -->
       <section id="contact" class="contact">
@@ -428,28 +436,32 @@
           loading="lazy"
         />
         <p class="contact__text">Let's get in touch! Send me a message:</p>
-        <form class="contact__form">
+        <form id="contact-form" class="contact__form">
           <input
             class="contact__form-input"
             type="text"
+            name="name"
             placeholder="Name"
             required
           />
           <input
             class="contact__form-input"
             type="email"
+            name="email"
             placeholder="Email"
             required
           />
           <input
             class="contact__form-input"
             type="text"
+            name="subject"
             placeholder="Subject"
             required
           />
           <input
             class="contact__form-input"
             type="text"
+            name="message"
             placeholder="Message"
             required
           />
