@@ -49,6 +49,7 @@
     </nav>
     <!-- Main content -->
     <main class="main">
+      <!-- Open navigation menu button -->
       <button
         id="open-menu-btn"
         type="button"
@@ -108,148 +109,180 @@
           <div class="gallery__col">
             <div class="gallery__item">
               <img
+                class="gallery__image"
                 src="/images/gallery/gallery-img-1.webp"
                 alt="Gallery item 1"
                 loading="lazy"
                 width="600px"
                 height="400px"
+                data-describe="Some describe"
               />
             </div>
             <div class="gallery__item">
               <img
+                class="gallery__image"
                 src="/images/gallery/gallery-img-2.webp"
                 alt="Gallery item 2"
                 loading="lazy"
                 width="600px"
                 height="400px"
+                data-describe="Some describe text"
               />
             </div>
             <div class="gallery__item">
               <img
+                class="gallery__image"
                 src="/images/gallery/gallery-img-3.webp"
                 alt="Gallery item 3"
                 loading="lazy"
                 width="600px"
                 height="800px"
+                data-describe="Some describe"
               />
             </div>
             <div class="gallery__item">
               <img
+                class="gallery__image"
                 src="/images/gallery/gallery-img-4.webp"
                 alt="Gallery item 4"
                 loading="lazy"
                 width="600px"
                 height="800px"
+                data-describe="Some describe"
               />
             </div>
             <div class="gallery__item">
               <img
+                class="gallery__image"
                 src="/images/gallery/gallery-img-5.webp"
                 alt="Gallery item 5"
                 loading="lazy"
                 width="600px"
                 height="600px"
+                data-describe="Some describe"
               />
             </div>
             <div class="gallery__item">
               <img
+                class="gallery__image"
                 src="/images/gallery/gallery-img-6.webp"
                 alt="Gallery item 6"
                 loading="lazy"
                 width="600px"
                 height="700px"
+                data-describe="Some describe"
               />
             </div>
             <div class="gallery__item">
               <img
+                class="gallery__image"
                 src="/images/gallery/gallery-img-7.webp"
                 alt="Gallery item 7"
                 loading="lazy"
                 width="600px"
                 height="700px"
+                data-describe="Some describe"
               />
             </div>
             <div class="gallery__item">
               <img
+                class="gallery__image"
                 src="/images/gallery/gallery-img-8.webp"
                 alt="Gallery item 8"
                 loading="lazy"
                 width="600px"
                 height="400px"
+                data-describe="Some describe"
               />
             </div>
           </div>
           <div class="gallery__col">
             <div class="gallery__item">
               <img
+                class="gallery__image"
                 src="/images/gallery/gallery-img-9.webp"
                 alt="Gallery item 9"
                 loading="lazy"
                 width="600px"
                 height="800px"
+                data-describe="Some describe"
               />
             </div>
             <div class="gallery__item">
               <img
+                class="gallery__image"
                 src="/images/gallery/gallery-img-10.webp"
                 alt="Gallery item 10"
                 loading="lazy"
                 width="600px"
                 height="700px"
+                data-describe="Some describe"
               />
             </div>
             <div class="gallery__item">
               <img
+                class="gallery__image"
                 src="/images/gallery/gallery-img-11.webp"
                 alt="Gallery item 11"
                 loading="lazy"
                 width="600px"
                 height="800px"
+                data-describe="Some describe"
               />
             </div>
             <div class="gallery__item">
               <img
+                class="gallery__image"
                 src="/images/gallery/gallery-img-12.webp"
                 alt="Gallery item 12"
                 loading="lazy"
                 width="600px"
                 height="400px"
+                data-describe="Some describe"
               />
             </div>
             <div class="gallery__item">
               <img
+                class="gallery__image"
                 src="/images/gallery/gallery-img-13.webp"
                 alt="Gallery item 13"
                 loading="lazy"
                 width="600px"
                 height="400px"
+                data-describe="Some describe"
               />
             </div>
             <div class="gallery__item">
               <img
+                class="gallery__image"
                 src="/images/gallery/gallery-img-14.webp"
                 alt="Gallery item 14"
                 loading="lazy"
                 width="600px"
                 height="700px"
+                data-describe="Some describe"
               />
             </div>
             <div class="gallery__item">
               <img
+                class="gallery__image"
                 src="/images/gallery/gallery-img-15.webp"
                 alt="Gallery item 15"
                 loading="lazy"
                 width="600px"
                 height="400px"
+                data-describe="Some describe"
               />
             </div>
             <div class="gallery__item">
               <img
+                class="gallery__image"
                 src="/images/gallery/gallery-img-16.webp"
                 alt="Gallery item 16"
                 loading="lazy"
                 width="600px"
                 height="400px"
+                data-describe="Some describe"
               />
             </div>
           </div>
@@ -554,6 +587,15 @@
         >
       </p>
     </footer>
+    <!-- Modal -->
+    <div class="modal overlay">
+      <button class="modal__close-button">
+        <svg class="modal__close-icon">
+          <use href="/public/icons/social-sprite.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="modal__content"></div>
+    </div>
     <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>

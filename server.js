@@ -36,8 +36,9 @@ app.post('/api/contact', async (req, res) => {
   });
   const mailOptions = {
     from: email,
-    to: '89o.kh89@gmail.com',
-    subject: subject,
+    // to: '89o.kh89@gmail.com',//work
+    to: 'iralwaysart@gmail.com', //prod
+    subject,
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
 
