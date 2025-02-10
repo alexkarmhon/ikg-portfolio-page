@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*montserrat-100*/
 @font-face {
   font-family: "Montserrat";
@@ -307,6 +308,7 @@ button {
 .modal {
   display: none;
   position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
   width: 100%;
@@ -323,16 +325,50 @@ button {
   background: none;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 .modal__close-icon {
   width: 60px;
   height: 60px;
   fill: rgb(255, 255, 255);
 }
+.modal__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}
+.modal__content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 600px) {
+  .modal__content {
+    max-width: 95%;
+    max-height: 95%;
+  }
+}
+@media screen and (orientation: portrait) {
+  .modal__content {
+    width: 90%;
+    max-height: 80%;
+  }
+}
+@media screen and (orientation: landscape) {
+  .modal__content {
+    width: 70%;
+    max-height: 85%;
+  }
+}
 .modal.is-open {
   display: block;
 }
 
+/* Адаптація для маленьких екранів */
 .header {
   display: flex;
   flex-direction: column;

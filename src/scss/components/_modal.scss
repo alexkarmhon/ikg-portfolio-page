@@ -18,6 +18,7 @@
     background: none;
     outline: none;
     border: none;
+    cursor: pointer;
   }
 
   &__close-icon {
@@ -31,9 +32,59 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    // background: #fff;
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media screen and (max-width: 600px) {
+      max-width: 95%;
+      max-height: 95%;
+    }
+
+    @media screen and (orientation: portrait) {
+      width: 90%;
+      max-height: 80%;
+    }
+
+    @media screen and (orientation: landscape) {
+      width: 70%;
+      max-height: 85%;
+    }
   }
 
   &.is-open {
     display: block;
   }
 }
+
+/* Адаптація для маленьких екранів */
+// @media screen and (max-width: 600px) {
+//   .modal__content {
+//     max-width: 95%;
+//     max-height: 95%;
+//   }
+// }
+
+// /* Адаптація залежно від орієнтації */
+// /* Для портретної орієнтації (вертикальний) */
+// @media screen and (orientation: portrait) {
+//   .modal__content {
+//     width: 90%;
+//     max-height: 80%;
+//   }
+// }
+
+// /* Для ландшафтної орієнтації (горизонтальний) */
+// @media screen and (orientation: landscape) {
+//   .modal__content {
+//     width: 70%;
+//     max-height: 85%;
+//   }
+// }
