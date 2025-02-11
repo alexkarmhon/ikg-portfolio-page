@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/icons/portfolio-favicon.png" />
-    <link
-      rel="alternate"
-      hreflang="en"
-      href="https://ikg-portfolio-page.vercel.app/"
-    />
+    <!-- <link rel="alternate" hreflang="uk" href="https://yourwebsite.com/uk/" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portfolio of designer Iryna Karmazinova-Honcharenko"
+      content="Портфоліо дизайнера Ірини Кармазінової-Гончаренко"
     />
+    .
     <title>I_K-H Portfolio</title>
   </head>
   <body>
@@ -37,31 +34,35 @@
       </button>
       <ul class="nav-menu__list">
         <li class="nav-menu__item">
-          <a class="nav-menu__link" href="#home" onclick="closeMenu()">Home</a>
+          <a class="nav-menu__link" href="#home" onclick="closeMenu()"
+            >Головна</a
+          >
         </li>
         <li class="nav-menu__item">
           <a class="nav-menu__link" href="#portfolio" onclick="closeMenu()"
-            >Portfolio</a
+            >Портфоліо</a
           >
         </li>
         <li class="nav-menu__item">
           <a class="nav-menu__link" href="#about" onclick="closeMenu()"
-            >About</a
+            >Про мене</a
           >
         </li>
         <li class="nav-menu__item">
           <a class="nav-menu__link" href="#contact" onclick="closeMenu()"
-            >Contact</a
+            >Контакти</a
           >
         </li>
       </ul>
       <ul class="nav-menu__lang-list">
         <li class="nav-menu__lang-list-item">
-          <a href="/" class="nav-menu__lang-list-link current">Eng</a>
+          <a href="/" class="nav-menu__lang-list-link">Англ</a>
         </li>
         <li class="nav-menu__lang-list-item">
-          <a href="/ukrainian-page.html" class="nav-menu__lang-list-link"
-            >Ukr</a
+          <a
+            href="/ukrainian-page.html"
+            class="nav-menu__lang-list-link current"
+            >Укр</a
           >
         </li>
       </ul>
@@ -76,7 +77,7 @@
       >
         <img
           src="/icons/bars.svg"
-          alt="Open navigation icon"
+          alt="Іконка відкриття навігації"
           loading="lazy"
           width="24px"
           height="24px"
@@ -84,12 +85,12 @@
       </button>
       <!-- Hidden header with image -->
       <header id="home" class="header">
-        <h1 class="header__title">Iryna Karmazinova-Honcharenko</h1>
-        <p>Graphic designer. UI/UX & Web-designer. Illustrator.</p>
+        <h1 class="header__title">Ірина Кармазінова-Гончаренко</h1>
+        <p>Графічний дизайнер. UI/UX та вебдизайнер. Ілюстратор.</p>
         <img
           class="header__photo header__photo--hide-large header__photo--hide-small"
           src="/images/main-photo.webp"
-          alt="Profile photo"
+          alt="Портрет дизайнера Ірини Кармазінової-Гончаренко"
           width="600px"
           height="800px"
           loading="lazy"
@@ -97,7 +98,7 @@
         <img
           class="header__photo header__photo--hide-large header__photo--hide-medium"
           src="/images/main-photo.webp"
-          alt="Profile photo"
+          alt="Портрет дизайнера Ірини Кармазінової-Гончаренко"
           width="1000px"
           height="1333px"
           aspect-ratio="3/4"
@@ -112,17 +113,17 @@
             <img
               class="main-button__span-icon"
               src="/icons/download.svg"
-              alt="Download document icon"
+              alt="Іконка завантаження файлу"
               width="12px"
               height="12px"
               loading="lazy"
-            />Download Resume
+            />Завантажити резюме
           </span>
         </a>
       </header>
       <!-- Portfolio Section -->
       <section id="portfolio" class="portfolio">
-        <h2 class="portfolio__title section-title">My Portfolio</h2>
+        <h2 class="portfolio__title section-title">Моє портфоліо</h2>
         <hr class="portfolio__divider breaking-line" />
         <div class="portfolio__gallery gallery">
           <div class="gallery__col">
@@ -130,11 +131,11 @@
               <img
                 class="gallery__image"
                 src="/images/gallery/gallery-img-1.webp"
-                alt="An example of responsive design: a transport company website on different devices."
+                alt="Приклад респонсивного дизайну: сайт транспортної компанії на різних пристроях."
                 loading="lazy"
                 width="600px"
                 height="400px"
-                data-caption="An example of responsive design: a transport company website on different devices."
+                data-caption="Приклад респонсивного дизайну: сайт транспортної компанії на різних пристроях."
                 data-source="/images/gallery/gallery-img-1.jpg"
               />
             </div>
@@ -142,11 +143,11 @@
               <img
                 class="gallery__image"
                 src="/images/gallery/gallery-img-2.webp"
-                alt="Design of an advertisement banner for an art studio website"
+                alt="Дизайн рекламного банера для сайту художньої майстерні"
                 loading="lazy"
                 width="600px"
                 height="400px"
-                data-caption="Design of an advertisement banner for an art studio website"
+                data-caption="Дизайн рекламного банера для сайту художньої майстерні"
                 data-source="/images/gallery/gallery-img-2.jpg"
               />
             </div>
@@ -154,11 +155,11 @@
               <img
                 class="gallery__image"
                 src="/images/gallery/gallery-img-3.webp"
-                alt="Sketch of old stairs leading to a door with overgrown plants."
+                alt="Ескіз старих сходів до дверей з зарослими рослинами."
                 loading="lazy"
                 width="600px"
                 height="800px"
-                data-caption="Sketch of old stairs leading to a door with overgrown plants."
+                data-caption="Ескіз старих сходів до дверей з зарослими рослинами."
                 data-source="/images/gallery/gallery-img-3.jpg"
               />
             </div>
@@ -166,11 +167,11 @@
               <img
                 class="gallery__image"
                 src="/images/gallery/gallery-img-4.webp"
-                alt="Two still life sketches: meat with Brussels sprouts, half a pumpkin."
+                alt="Два ескізи натюрмортів: м'ясо з брюссельською капустою, половина гарбуза."
                 loading="lazy"
                 width="600px"
                 height="800px"
-                data-caption="Two still life sketches: meat with Brussels sprouts, half a pumpkin."
+                data-caption="Два ескізи натюрмортів: м'ясо з брюссельською капустою, половина гарбуза."
                 data-source="/images/gallery/gallery-img-4.jpg"
               />
             </div>
@@ -178,11 +179,11 @@
               <img
                 class="gallery__image"
                 src="/images/gallery/gallery-img-5.webp"
-                alt="Advertising poster for a medical company"
+                alt="Рекламний постер медичної компанії"
                 loading="lazy"
                 width="600px"
                 height="600px"
-                data-caption="Advertising poster for a medical company"
+                data-caption="Рекламний постер медичної компанії"
                 data-source="/images/gallery/gallery-img-5.jpg"
               />
             </div>
@@ -190,11 +191,11 @@
               <img
                 class="gallery__image"
                 src="/images/gallery/gallery-img-6.webp"
-                alt="Sketches of buildings for tourist postcards"
+                alt="Ескізи будівель для туристичних листівок"
                 loading="lazy"
                 width="600px"
                 height="700px"
-                data-caption="Sketches of buildings for tourist postcards"
+                data-caption="Ескізи будівель для туристичних листівок"
                 data-source="/images/gallery/gallery-img-6.jpg"
               />
             </div>
@@ -202,11 +203,11 @@
               <img
                 class="gallery__image"
                 src="/images/gallery/gallery-img-7.webp"
-                alt="Watercolor illustrations for the book 'Eyelash Lamination Technology and Botox' by Tatyana Tashuta"
+                alt="Акварельні ілюстрації для книги 'Технологія ламінування вій та ботокс' Ташути Тетяни"
                 loading="lazy"
                 width="600px"
                 height="700px"
-                data-caption="Watercolor illustrations for the book 'Eyelash Lamination Technology and Botox' by Tatyana Tashuta"
+                data-caption="Акварельні ілюстрації для книги 'Технологія ламінування вій та ботокс' Ташути Тетяни"
                 data-source="/images/gallery/gallery-img-7.jpg"
               />
             </div>
@@ -214,11 +215,11 @@
               <img
                 class="gallery__image"
                 src="/images/gallery/gallery-img-8.webp"
-                alt="Label for 'Moonshine' alcoholic beverage"
+                alt="Етикетка для алкогольного напою 'Муншайн'"
                 loading="lazy"
                 width="600px"
                 height="400px"
-                data-caption="Label for 'Moonshine' alcoholic beverage"
+                data-caption="Етикетка для алкогольного напою 'Муншайн'"
                 data-source="/images/gallery/gallery-img-8.jpg"
               />
             </div>
@@ -228,11 +229,11 @@
               <img
                 class="gallery__image"
                 src="/images/gallery/gallery-img-9.webp"
-                alt="Label for 'Moonshine' alcoholic beverage"
+                alt="Етикетка для алкогольного напою 'Муншайн'"
                 loading="lazy"
                 width="600px"
                 height="800px"
-                data-caption="Label for 'Moonshine' alcoholic beverage"
+                data-caption="Етикетка для алкогольного напою 'Муншайн'"
                 data-source="/images/gallery/gallery-img-9.jpg"
               />
             </div>
@@ -240,11 +241,11 @@
               <img
                 class="gallery__image"
                 src="/images/gallery/gallery-img-10.webp"
-                alt="Wall painting in «0057 pizza kharkiv»"
+                alt="Розпис стін в «0057 pizza kharkiv»"
                 loading="lazy"
                 width="600px"
                 height="700px"
-                data-caption="Wall painting in «0057 pizza kharkiv»"
+                data-caption="Розпис стін в «0057 pizza kharkiv»"
                 data-source="/images/gallery/gallery-img-10.jpg"
               />
             </div>
@@ -252,11 +253,11 @@
               <img
                 class="gallery__image"
                 src="/images/gallery/gallery-img-11.webp"
-                alt="Wall painting in «0057 pizza kharkiv»"
+                alt="Розпис стін в «0057 pizza kharkiv»"
                 loading="lazy"
                 width="600px"
                 height="800px"
-                data-caption="Wall painting in «0057 pizza kharkiv»"
+                data-caption="Розпис стін в «0057 pizza kharkiv»"
                 data-source="/images/gallery/gallery-img-11.jpg"
               />
             </div>
@@ -264,11 +265,11 @@
               <img
                 class="gallery__image"
                 src="/images/gallery/gallery-img-12.webp"
-                alt="Сalendar «Ero Simpsons 2023»"
+                alt="Календар «Еро Сімпсони 2023»"
                 loading="lazy"
                 width="600px"
                 height="400px"
-                data-caption="Сalendar «Ero Simpsons 2023»"
+                data-caption="Календар «Еро Сімпсони 2023»"
                 data-source="/images/gallery/gallery-img-12.jpg"
               />
             </div>
@@ -276,11 +277,11 @@
               <img
                 class="gallery__image"
                 src="/images/gallery/gallery-img-13.webp"
-                alt="Greeting card"
+                alt="Вітальна листівка"
                 loading="lazy"
                 width="600px"
                 height="400px"
-                data-caption="Greeting card"
+                data-caption="Вітальна листівка"
                 data-source="/images/gallery/gallery-img-13.jpg"
               />
             </div>
@@ -288,11 +289,11 @@
               <img
                 class="gallery__image"
                 src="/images/gallery/gallery-img-14.webp"
-                alt="Greeting card for little girl"
+                alt="Вітальна листівка для дівчинки"
                 loading="lazy"
                 width="600px"
                 height="700px"
-                data-caption="Greeting card for little girl"
+                data-caption="Вітальна листівка для дівчинки"
                 data-source="/images/gallery/gallery-img-14.jpg"
               />
             </div>
@@ -300,11 +301,11 @@
               <img
                 class="gallery__image"
                 src="/images/gallery/gallery-img-15.webp"
-                alt="Watercolor sketch of an old house"
+                alt="Акварельний ескіз старого будинку"
                 loading="lazy"
                 width="600px"
                 height="400px"
-                data-caption="Watercolor sketch of an old house"
+                data-caption="Акварельний ескіз старого будинку"
                 data-source="/images/gallery/gallery-img-15.jpg"
               />
             </div>
@@ -312,55 +313,61 @@
               <img
                 class="gallery__image"
                 src="/images/gallery/gallery-img-16.webp"
-                alt="Stickers for Telegram sticker pack"
+                alt="Стікери для пакету стікерів Telegram"
                 loading="lazy"
                 width="600px"
                 height="400px"
-                data-caption="Stickers for Telegram sticker pack"
+                data-caption="Стікери для пакету стікерів Telegram"
                 data-source="/images/gallery/gallery-img-16.jpg"
               />
             </div>
           </div>
         </div>
         <p class="portfolio__text">
-          More projects on
-          <a href="https://www.behance.net/littleiriart">my Behance profile</a>
+          Більше проєктів на
+          <a href="https://www.behance.net/littleiriart"
+            >моєму профілі Behance</a
+          >
         </p>
       </section>
       <!-- About Section -->
       <section id="about" class="about">
-        <h2 class="about__title section-title">About Me</h2>
+        <h2 class="about__title section-title">Про мене</h2>
         <hr class="about__divider breaking-line" />
         <p class="about__text">
-          Hi there! I'm Iryna Karmazinova-Honcharenko, a passionate Graphic
-          Designer, UI/UX Designer, and Illustrator. With a creative vision and
-          an eye for detail, I specialize in crafting visually appealing designs
-          that effectively communicate ideas and tell stories.
+          Привіт! Я Ірина Кармазінова-Гончаренко, захоплена графічна дизайнерка,
+          UI/UX дизайнерка та ілюстраторка. Завдяки творчому баченню та увазі до
+          деталей, я спеціалізуюся на створенні візуально привабливих дизайнів,
+          які ефективно передають ідеї та розповідають історії.
         </p>
         <p class="about__text">
-          My journey in design started with a love for art and creativity, which
-          evolved into a career where I bring concepts to life through digital
-          mediums. Over the years, I've worked on diverse projects, including
-          brand identities, packaging designs, web interfaces, and custom
-          illustrations.
+          Моя подорож у світ дизайну розпочалася з любові до мистецтва та
+          креативності, що переросло у кар'єру, де я втілюю ідеї в життя через
+          цифрові медіа. Протягом років я працювала над різноманітними
+          проєктами, включаючи розробку айдентики брендів, дизайну пакування,
+          веб-інтерфейсів та створення унікальних ілюстрацій.
         </p>
         <div class="about__services">
-          <h3 class="about__subtitle section-subtitle">What I do:</h3>
+          <h3 class="about__subtitle section-subtitle">Чим я займаюся:</h3>
           <p class="about__text">
-            <strong class="accent">Graphic Design:</strong> From logos to social
-            media creatives, I help brands stand out.
+            <strong class="accent">Графічний дизайн:</strong> Від логотипів до
+            креативів для соціальних мереж – допомагаю брендам виділятися.
           </p>
           <p class="about__text">
-            <strong class="accent">UI/UX Design:</strong> Designing intuitive
-            and engaging user experiences for websites and applications.
+            <strong class="accent">UI/UX дизайн:</strong> Створюю інтуїтивно
+            зрозумілі та захопливі користувацькі інтерфейси для вебсайтів і
+            додатків.
           </p>
           <p class="about__text">
-            <strong class="accent">Illustration:</strong> Crafting unique,
-            hand-drawn visuals to add a personal touch to any project.
+            <strong class="accent">Ілюстрація:</strong> Розробляю унікальні,
+            авторські ілюстрації, які додають індивідуальності будь-якому
+            проєкту.
           </p>
         </div>
         <div class="about__tools">
-          <h3 class="about__subtitle section-subtitle">Tools I Use</h3>
+          <h3 class="about__subtitle section-subtitle">
+            Інструменти, які я використовую
+          </h3>
           <ul class="about__tools-list">
             <li class="about__tools-item">
               <img
@@ -446,12 +453,12 @@
         </div>
 
         <div class="about__why-me">
-          <h3 class="about__subtitle section-subtitle">Why choose me?</h3>
+          <h3 class="about__subtitle section-subtitle">Чому обирають мене?</h3>
           <p class="about__text">
-            I combine technical expertise with creative thinking to deliver
-            designs that are not only beautiful but also purposeful. My approach
-            involves understanding your needs, collaborating closely, and
-            ensuring every detail aligns with your vision.
+            Я поєдную технічну експертизу з креативним мисленням, щоб створювати
+            дизайни, які не лише красиві, але й функціональні. Мій підхід
+            включає глибоке розуміння ваших потреб, тісну співпрацю та увагу до
+            кожної деталі, щоб втілити вашу ідею в життя.
           </p>
         </div>
 
@@ -464,17 +471,17 @@
             <img
               class="main-button__span-icon"
               src="/icons/download.svg"
-              alt="download icon"
+              alt="Іконка завантаження файлу"
               width="12px"
               height="12px"
               loading="lazy"
-            />Download Resume
+            />Завантажити резюме
           </span>
         </a>
       </section>
       <!-- Contact Section -->
       <section id="contact" class="contact">
-        <h2 class="section-title">Contact Me</h2>
+        <h2 class="section-title">Зв'яжіться зі мною</h2>
         <hr class="breaking-line" />
         <address class="contact__address">
           <ul class="contact__address-list">
@@ -485,18 +492,19 @@
                 noopener
                 noreferrer
                 target="_blank"
-                >Kharkiv, Ukraine</a
               >
+                Харків, Україна
+              </a>
             </li>
             <li class="contact__address-item">
-              <a class="contact__address-link--phone" href=""
-                >Phone: +38093-627-07-..</a
-              >
+              <a class="contact__address-link--phone" href="">
+                Телефон: +38093-627-07-..
+              </a>
             </li>
             <li class="contact__address-item">
               <a class="contact__address-link--email" href="">
-                Email: mail@mail.com</a
-              >
+                Email: mail@mail.com
+              </a>
             </li>
           </ul>
         </address>
@@ -507,34 +515,36 @@
           aspect-ratio="16/9"
           loading="lazy"
         />
-        <p class="contact__text">Let's get in touch! Send me a message:</p>
+        <p class="contact__text">
+          Давайте зв'яжемося! Надішліть мені повідомлення:
+        </p>
         <form id="contact-form" class="contact__form">
           <input
             class="contact__form-input"
             type="text"
             name="name"
-            placeholder="Name"
+            placeholder="Ім'я"
             required
           />
           <input
             class="contact__form-input"
             type="email"
             name="email"
-            placeholder="Email"
+            placeholder="Електронна пошта"
             required
           />
           <input
             class="contact__form-input"
             type="text"
             name="subject"
-            placeholder="Subject"
+            placeholder="Тема"
             required
           />
           <input
             class="contact__form-input"
             type="text"
             name="message"
-            placeholder="Message"
+            placeholder="Повідомлення"
             required
           />
           <button class="main-button main-button--dark" type="submit">
@@ -542,11 +552,11 @@
               ><img
                 class="main-button__span-icon"
                 src="/icons/paper-plane.svg"
-                alt="send icon"
+                alt="іконка відправки"
                 loading="lazy"
                 width="16px"
                 height="16px"
-              />SEND MESSAGE</span
+              />НАДІСЛАТИ ПОВІДОМЛЕННЯ</span
             >
           </button>
         </form>
@@ -617,7 +627,7 @@
         </li>
       </ul>
       <p class="footer__text">
-        Created by
+        Створено
         <a
           href="https://www.linkedin.com/in/olexii-karmazinov-honcharenko-a726b5283/"
           rel="noopener noreferrer"

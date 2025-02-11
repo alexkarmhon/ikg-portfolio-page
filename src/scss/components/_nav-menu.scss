@@ -7,14 +7,17 @@
   height: 100%;
   width: 60%;
   padding-top: 150px;
+  padding-bottom: 50px;
   background-color: #000;
-  color: white;
+  color: vars.$main-gray-color;
   overflow: auto;
   z-index: 1;
   animation: animateright 0.4s;
 
   &.is-visible {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   &__btn {
@@ -48,8 +51,20 @@
     padding: 8px 16px;
     outline: 0;
     font-size: 36px;
-    color: vars.$main-gray-color;
     text-decoration: none;
+  }
+
+  &__lang-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .current {
+      color: white;
+    }
   }
 }
 

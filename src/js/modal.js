@@ -19,7 +19,7 @@ modal.addEventListener('click', (e) => {
 const showBigImage = (e) => {
   openModal();
   const img = document.createElement('img');
-  img.src = e.target.src;
+  img.src = e.target.dataset.source;
   img.alt = e.target.alt;
   modalContent.innerHTML = '';
   modalContent.appendChild(img);

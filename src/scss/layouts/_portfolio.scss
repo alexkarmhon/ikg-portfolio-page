@@ -1,11 +1,27 @@
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
+@use '../base/vars';
 
-  &__col {
-    display: flex;
-    flex-direction: column;
+.portfolio {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 12px;
+
+    &__col {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
+
+  &__text {
+    margin-top: 16px;
+    text-align: center;
+    color: vars.$main-gray-color;
+
+    a {
+      color: #68b1ce;
+      font-weight: 600;
+      border-bottom: 1px solid #68b1ce;
+    }
   }
 }

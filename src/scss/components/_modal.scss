@@ -35,10 +35,11 @@
     max-width: 90%;
     max-height: 90%;
     overflow: auto;
-    // background: #fff;
+    background: #fff;
 
     img {
       display: block;
+      width: 100%;
       margin-left: auto;
       margin-right: auto;
     }
@@ -63,28 +64,3 @@
     display: block;
   }
 }
-
-/* Адаптація для маленьких екранів */
-// @media screen and (max-width: 600px) {
-//   .modal__content {
-//     max-width: 95%;
-//     max-height: 95%;
-//   }
-// }
-
-// /* Адаптація залежно від орієнтації */
-// /* Для портретної орієнтації (вертикальний) */
-// @media screen and (orientation: portrait) {
-//   .modal__content {
-//     width: 90%;
-//     max-height: 80%;
-//   }
-// }
-
-// /* Для ландшафтної орієнтації (горизонтальний) */
-// @media screen and (orientation: landscape) {
-//   .modal__content {
-//     width: 70%;
-//     max-height: 85%;
-//   }
-// }
