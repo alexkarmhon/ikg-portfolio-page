@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/ikg-portfolio-page/icons/portfolio-favicon.png" />
+    <link
+      rel="alternate"
+      hreflang="uk"
+      href="https://https://ikg-portfolio-page.vercel.app/ukrainian-page.html"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Портфоліо дизайнера Ірини Кармазінової-Гончаренко"
+    />
+    <title>I_K-H Portfolio</title>
+    <script type="module" crossorigin src="/ikg-portfolio-page/assets/main-D-IJ_U9F.js"></script>
+    <link rel="stylesheet" crossorigin href="/ikg-portfolio-page/assets/main.css">
+  </head>
+  <body>
+    <!-- Sidebar with image -->
+    <aside class="sidebar">
+      <div class="sidebar__image"></div>
+    </aside>
+    <!-- Navigation menu -->
+    <nav id="nav-menu" class="nav-menu">
+      <button
+        id="close-menu-btn"
+        type="button"
+        class="nav-menu__btn nav-menu__btn--close"
+      >
+        <img
+          src="/ikg-portfolio-page/icons/close.svg"
+          alt="Close navigation icon"
+          loading="lazy"
+          width="24px"
+          height="24px"
+        />
+      </button>
+      <ul class="nav-menu__list">
+        <li class="nav-menu__item">
+          <a class="nav-menu__link" href="#home" onclick="closeMenu()"
+            >Головна</a
+          >
+        </li>
+        <li class="nav-menu__item">
+          <a class="nav-menu__link" href="#portfolio" onclick="closeMenu()"
+            >Портфоліо</a
+          >
+        </li>
+        <li class="nav-menu__item">
+          <a class="nav-menu__link" href="#about" onclick="closeMenu()"
+            >Про мене</a
+          >
+        </li>
+        <li class="nav-menu__item">
+          <a class="nav-menu__link" href="#contact" onclick="closeMenu()"
+            >Контакти</a
+          >
+        </li>
+      </ul>
+      <ul class="nav-menu__lang-list">
+        <li class="nav-menu__lang-list-item">
+          <a href="/" class="nav-menu__lang-list-link">Англ</a>
+        </li>
+        <li class="nav-menu__lang-list-item">
+          <a
+            href="/ukrainian-page.html"
+            class="nav-menu__lang-list-link current"
+            >Укр</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- Main content -->
+    <main class="main">
+      <!-- Open navigation menu button -->
+      <button
+        id="open-menu-btn"
+        type="button"
+        class="nav-menu__btn nav-menu__btn--menu"
+      >
+        <img
+          src="/ikg-portfolio-page/icons/bars.svg"
+          alt="Іконка відкриття навігації"
+          loading="lazy"
+          width="24px"
+          height="24px"
+        />
+      </button>
+      <!-- Hidden header with image -->
+      <header id="home" class="header">
+        <h1 class="header__title">Ірина Кармазінова-Гончаренко</h1>
+        <p>Графічний дизайнер. UI/UX та вебдизайнер. Ілюстратор.</p>
+        <img
+          class="header__photo header__photo--hide-large header__photo--hide-small"
+          src="/ikg-portfolio-page/images/main-photo.webp"
+          alt="Портрет дизайнера Ірини Кармазінової-Гончаренко"
+          width="600px"
+          height="800px"
+          loading="lazy"
+        />
+        <img
+          class="header__photo header__photo--hide-large header__photo--hide-medium"
+          src="/ikg-portfolio-page/images/main-photo.webp"
+          alt="Портрет дизайнера Ірини Кармазінової-Гончаренко"
+          width="1000px"
+          height="1333px"
+          aspect-ratio="3/4"
+          loading="lazy"
+        />
+        <a
+          class="main-button main-button--dark"
+          href="/КHІ_designer.pdf"
+          download
+        >
+          <span class="main-button__span">
+            <img
+              class="main-button__span-icon"
+              src="/ikg-portfolio-page/icons/download.svg"
+              alt="Іконка завантаження файлу"
+              width="12px"
+              height="12px"
+              loading="lazy"
+            />Завантажити резюме
+          </span>
+        </a>
+      </header>
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio">
+        <h2 class="portfolio__title section-title">Моє портфоліо</h2>
+        <hr class="portfolio__divider breaking-line" />
+        <div class="portfolio__gallery gallery">
+          <div class="gallery__col">
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-1.webp"
+                alt="Приклад респонсивного дизайну: сайт транспортної компанії на різних пристроях."
+                loading="lazy"
+                width="600px"
+                height="400px"
+                data-caption="Приклад респонсивного дизайну: сайт транспортної компанії на різних пристроях."
+                data-source="/images/gallery/gallery-img-1.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-2.webp"
+                alt="Дизайн рекламного банера для сайту художньої майстерні"
+                loading="lazy"
+                width="600px"
+                height="400px"
+                data-caption="Дизайн рекламного банера для сайту художньої майстерні"
+                data-source="/images/gallery/gallery-img-2.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-3.webp"
+                alt="Ескіз старих сходів до дверей з зарослими рослинами."
+                loading="lazy"
+                width="600px"
+                height="800px"
+                data-caption="Ескіз старих сходів до дверей з зарослими рослинами."
+                data-source="/images/gallery/gallery-img-3.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-4.webp"
+                alt="Два ескізи натюрмортів: м'ясо з брюссельською капустою, половина гарбуза."
+                loading="lazy"
+                width="600px"
+                height="800px"
+                data-caption="Два ескізи натюрмортів: м'ясо з брюссельською капустою, половина гарбуза."
+                data-source="/images/gallery/gallery-img-4.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-5.webp"
+                alt="Рекламний постер медичної компанії"
+                loading="lazy"
+                width="600px"
+                height="600px"
+                data-caption="Рекламний постер медичної компанії"
+                data-source="/images/gallery/gallery-img-5.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-6.webp"
+                alt="Ескізи будівель для туристичних листівок"
+                loading="lazy"
+                width="600px"
+                height="700px"
+                data-caption="Ескізи будівель для туристичних листівок"
+                data-source="/images/gallery/gallery-img-6.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-7.webp"
+                alt="Акварельні ілюстрації для книги 'Технологія ламінування вій та ботокс' Ташути Тетяни"
+                loading="lazy"
+                width="600px"
+                height="700px"
+                data-caption="Акварельні ілюстрації для книги 'Технологія ламінування вій та ботокс' Ташути Тетяни"
+                data-source="/images/gallery/gallery-img-7.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-8.webp"
+                alt="Етикетка для алкогольного напою 'Муншайн'"
+                loading="lazy"
+                width="600px"
+                height="400px"
+                data-caption="Етикетка для алкогольного напою 'Муншайн'"
+                data-source="/images/gallery/gallery-img-8.jpg"
+              />
+            </div>
+          </div>
+          <div class="gallery__col">
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-9.webp"
+                alt="Етикетка для алкогольного напою 'Муншайн'"
+                loading="lazy"
+                width="600px"
+                height="800px"
+                data-caption="Етикетка для алкогольного напою 'Муншайн'"
+                data-source="/images/gallery/gallery-img-9.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-10.webp"
+                alt="Розпис стін в «0057 pizza kharkiv»"
+                loading="lazy"
+                width="600px"
+                height="700px"
+                data-caption="Розпис стін в «0057 pizza kharkiv»"
+                data-source="/images/gallery/gallery-img-10.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-11.webp"
+                alt="Розпис стін в «0057 pizza kharkiv»"
+                loading="lazy"
+                width="600px"
+                height="800px"
+                data-caption="Розпис стін в «0057 pizza kharkiv»"
+                data-source="/images/gallery/gallery-img-11.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-12.webp"
+                alt="Календар «Еро Сімпсони 2023»"
+                loading="lazy"
+                width="600px"
+                height="400px"
+                data-caption="Календар «Еро Сімпсони 2023»"
+                data-source="/images/gallery/gallery-img-12.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-13.webp"
+                alt="Вітальна листівка"
+                loading="lazy"
+                width="600px"
+                height="400px"
+                data-caption="Вітальна листівка"
+                data-source="/images/gallery/gallery-img-13.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-14.webp"
+                alt="Вітальна листівка для дівчинки"
+                loading="lazy"
+                width="600px"
+                height="700px"
+                data-caption="Вітальна листівка для дівчинки"
+                data-source="/images/gallery/gallery-img-14.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-15.webp"
+                alt="Акварельний ескіз старого будинку"
+                loading="lazy"
+                width="600px"
+                height="400px"
+                data-caption="Акварельний ескіз старого будинку"
+                data-source="/images/gallery/gallery-img-15.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-16.webp"
+                alt="Стікери для пакету стікерів Telegram"
+                loading="lazy"
+                width="600px"
+                height="400px"
+                data-caption="Стікери для пакету стікерів Telegram"
+                data-source="/images/gallery/gallery-img-16.jpg"
+              />
+            </div>
+          </div>
+        </div>
+        <p class="portfolio__text">
+          Більше проєктів на
+          <a href="https://www.behance.net/littleiriart"
+            >моєму профілі Behance</a
+          >
+        </p>
+      </section>
+      <!-- About Section -->
+      <section id="about" class="about">
+        <h2 class="about__title section-title">Про мене</h2>
+        <hr class="about__divider breaking-line" />
+        <p class="about__text">
+          Привіт! Я Ірина Кармазінова-Гончаренко, захоплена графічна дизайнерка,
+          UI/UX дизайнерка та ілюстраторка. Завдяки творчому баченню та увазі до
+          деталей, я спеціалізуюся на створенні візуально привабливих дизайнів,
+          які ефективно передають ідеї та розповідають історії.
+        </p>
+        <p class="about__text">
+          Моя подорож у світ дизайну розпочалася з любові до мистецтва та
+          креативності, що переросло у кар'єру, де я втілюю ідеї в життя через
+          цифрові медіа. Протягом років я працювала над різноманітними
+          проєктами, включаючи розробку айдентики брендів, дизайну пакування,
+          веб-інтерфейсів та створення унікальних ілюстрацій.
+        </p>
+        <div class="about__services">
+          <h3 class="about__subtitle section-subtitle">Чим я займаюся:</h3>
+          <p class="about__text">
+            <strong class="accent">Графічний дизайн:</strong> Від логотипів до
+            креативів для соціальних мереж – допомагаю брендам виділятися.
+          </p>
+          <p class="about__text">
+            <strong class="accent">UI/UX дизайн:</strong> Створюю інтуїтивно
+            зрозумілі та захопливі користувацькі інтерфейси для вебсайтів і
+            додатків.
+          </p>
+          <p class="about__text">
+            <strong class="accent">Ілюстрація:</strong> Розробляю унікальні,
+            авторські ілюстрації, які додають індивідуальності будь-якому
+            проєкту.
+          </p>
+        </div>
+        <div class="about__tools">
+          <h3 class="about__subtitle section-subtitle">
+            Інструменти, які я використовую
+          </h3>
+          <ul class="about__tools-list">
+            <li class="about__tools-item">
+              <img
+                src="/ikg-portfolio-page/icons/adobe-photoshop-icon.svg"
+                alt="Adobe Photoshop icon"
+                width="36px"
+                height="36px"
+                loading="lazy"
+              />
+              Adobe Photoshop
+            </li>
+            <li class="about__tools-item">
+              <img
+                src="/ikg-portfolio-page/icons/adobe-illustrator-icon.svg"
+                alt="Adobe illustrator icon"
+                width="36px"
+                height="36px"
+                loading="lazy"
+              />
+              Adobe Illustrator
+            </li>
+            <li class="about__tools-item">
+              <img
+                src="/ikg-portfolio-page/icons/adobe-indesign-icon.svg"
+                alt="Adobe InDesign icon"
+                width="36px"
+                height="36px"
+                loading="lazy"
+              />
+              Adobe InDesign
+            </li>
+            <li class="about__tools-item">
+              <img
+                src="/ikg-portfolio-page/icons/figma-icon.svg"
+                alt="Figma icon"
+                width="36px"
+                height="36px"
+                loading="lazy"
+              />
+              Figma
+            </li>
+            <li class="about__tools-item">
+              <img
+                src="/ikg-portfolio-page/icons/procreate-icon.svg"
+                alt="Procreate icon"
+                width="36px"
+                height="36px"
+                loading="lazy"
+              />
+              Procreate
+            </li>
+            <li class="about__tools-item">
+              <img
+                src="/ikg-portfolio-page/icons/adobe-after-effects-icon.svg"
+                alt="Adobe aftereffects icon"
+                width="36px"
+                height="36px"
+                loading="lazy"
+              />
+              Adobe After Effects
+            </li>
+            <li class="about__tools-item">
+              <img
+                src="/ikg-portfolio-page/icons/coreldraw-icon.svg"
+                alt="CorelDRAW icon"
+                width="36px"
+                height="36px"
+                loading="lazy"
+              />
+              CorelDRAW
+            </li>
+            <li class="about__tools-item">
+              <img
+                src="/ikg-portfolio-page/icons/capcut-icon.svg"
+                alt="CapCut icon"
+                width="36px"
+                height="36px"
+                loading="lazy"
+              />
+              CapCut
+            </li>
+          </ul>
+        </div>
+
+        <div class="about__why-me">
+          <h3 class="about__subtitle section-subtitle">Чому обирають мене?</h3>
+          <p class="about__text">
+            Я поєдную технічну експертизу з креативним мисленням, щоб створювати
+            дизайни, які не лише красиві, але й функціональні. Мій підхід
+            включає глибоке розуміння ваших потреб, тісну співпрацю та увагу до
+            кожної деталі, щоб втілити вашу ідею в життя.
+          </p>
+        </div>
+
+        <a
+          class="main-button main-button--dark"
+          href="/КHІ_designer.pdf"
+          download
+        >
+          <span class="main-button__span">
+            <img
+              class="main-button__span-icon"
+              src="/ikg-portfolio-page/icons/download.svg"
+              alt="Іконка завантаження файлу"
+              width="12px"
+              height="12px"
+              loading="lazy"
+            />Завантажити резюме
+          </span>
+        </a>
+      </section>
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
+        <h2 class="section-title">Зв'яжіться зі мною</h2>
+        <hr class="breaking-line" />
+        <address class="contact__address">
+          <ul class="contact__address-list">
+            <li class="contact__address-item">
+              <a
+                class="contact__address-link--location"
+                href=""
+                noopener
+                noreferrer
+                target="_blank"
+              >
+                Харків, Україна
+              </a>
+            </li>
+            <li class="contact__address-item">
+              <a class="contact__address-link--phone" href="">
+                Телефон: +38093-627-07-..
+              </a>
+            </li>
+            <li class="contact__address-item">
+              <a class="contact__address-link--email" href="">
+                Email: mail@mail.com
+              </a>
+            </li>
+          </ul>
+        </address>
+        <img
+          src="/ikg-portfolio-page/images/kharkiv-map.webp"
+          alt="map of Kharkiv, Ukraine"
+          width="1100px"
+          aspect-ratio="16/9"
+          loading="lazy"
+        />
+        <p class="contact__text">
+          Давайте зв'яжемося! Надішліть мені повідомлення:
+        </p>
+        <form id="contact-form" class="contact__form">
+          <input
+            class="contact__form-input"
+            type="text"
+            name="name"
+            placeholder="Ім'я"
+            required
+          />
+          <input
+            class="contact__form-input"
+            type="email"
+            name="email"
+            placeholder="Електронна пошта"
+            required
+          />
+          <input
+            class="contact__form-input"
+            type="text"
+            name="subject"
+            placeholder="Тема"
+            required
+          />
+          <input
+            class="contact__form-input"
+            type="text"
+            name="message"
+            placeholder="Повідомлення"
+            required
+          />
+          <button class="main-button main-button--dark" type="submit">
+            <span class="main-button__span"
+              ><img
+                class="main-button__span-icon"
+                src="/ikg-portfolio-page/icons/paper-plane.svg"
+                alt="іконка відправки"
+                loading="lazy"
+                width="16px"
+                height="16px"
+              />НАДІСЛАТИ ПОВІДОМЛЕННЯ</span
+            >
+          </button>
+        </form>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <ul class="footer__social">
+        <li class="footer__social-item">
+          <a
+            class="footer__social-link"
+            href="https://www.instagram.com/littleiriart"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="footer__social-icon">
+              <use href="/ikg-portfolio-page/icons/social-sprite.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a
+            class="footer__social-link"
+            href="https://www.facebook.com/profile.php?id=100009317429756"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="footer__social-icon">
+              <use href="/ikg-portfolio-page/icons/social-sprite.svg#icon-facebook2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a
+            class="footer__social-link"
+            href="https://t.me/littleiriart"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="footer__social-icon">
+              <use href="/ikg-portfolio-page/icons/social-sprite.svg#icon-telegram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a
+            class="footer__social-link"
+            href="https://www.behance.net/littleiriart"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="footer__social-icon">
+              <use href="/ikg-portfolio-page/icons/social-sprite.svg#icon-behance2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a
+            class="footer__social-link"
+            href="https://www.linkedin.com/in/littleiriart/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="footer__social-icon">
+              <use href="/ikg-portfolio-page/icons/social-sprite.svg#icon-linkedin2"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <p class="footer__text">
+        Створено
+        <a
+          href="https://www.linkedin.com/in/olexii-karmazinov-honcharenko-a726b5283/"
+          rel="noopener noreferrer"
+          target="_blank"
+          >O_K-H</a
+        >
+      </p>
+    </footer>
+    <!-- Modal -->
+    <div class="modal overlay">
+      <button class="modal__close-button">
+        <svg class="modal__close-icon">
+          <use href="/ikg-portfolio-page/icons/social-sprite.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="modal__content"></div>
+    </div>
+  </body>
+</html>

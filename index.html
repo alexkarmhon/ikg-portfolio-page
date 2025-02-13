@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/ikg-portfolio-page/icons/portfolio-favicon.png" />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://ikg-portfolio-page.vercel.app/"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of designer Iryna Karmazinova-Honcharenko"
+    />
+    <title>I_K-H Portfolio</title>
+    <script type="module" crossorigin src="/ikg-portfolio-page/assets/main-D-IJ_U9F.js"></script>
+    <link rel="stylesheet" crossorigin href="/ikg-portfolio-page/assets/main.css">
+  </head>
+  <body>
+    <!-- Sidebar with image -->
+    <aside class="sidebar">
+      <div class="sidebar__image"></div>
+    </aside>
+    <!-- Navigation menu -->
+    <nav id="nav-menu" class="nav-menu">
+      <button
+        id="close-menu-btn"
+        type="button"
+        class="nav-menu__btn nav-menu__btn--close"
+      >
+        <img
+          src="/ikg-portfolio-page/icons/close.svg"
+          alt="Close navigation icon"
+          loading="lazy"
+          width="24px"
+          height="24px"
+        />
+      </button>
+      <ul class="nav-menu__list">
+        <li class="nav-menu__item">
+          <a class="nav-menu__link" href="#home" onclick="closeMenu()">Home</a>
+        </li>
+        <li class="nav-menu__item">
+          <a class="nav-menu__link" href="#portfolio" onclick="closeMenu()"
+            >Portfolio</a
+          >
+        </li>
+        <li class="nav-menu__item">
+          <a class="nav-menu__link" href="#about" onclick="closeMenu()"
+            >About</a
+          >
+        </li>
+        <li class="nav-menu__item">
+          <a class="nav-menu__link" href="#contact" onclick="closeMenu()"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <ul class="nav-menu__lang-list">
+        <li class="nav-menu__lang-list-item">
+          <a href="/" class="nav-menu__lang-list-link current">Eng</a>
+        </li>
+        <li class="nav-menu__lang-list-item">
+          <a
+            href="/ikg-portfolio-page/ukrainian-page.html"
+            class="nav-menu__lang-list-link"
+            >Ukr</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- Main content -->
+    <main class="main">
+      <!-- Open navigation menu button -->
+      <button
+        id="open-menu-btn"
+        type="button"
+        class="nav-menu__btn nav-menu__btn--menu"
+      >
+        <img
+          src="/ikg-portfolio-page/icons/bars.svg"
+          alt="Open navigation icon"
+          loading="lazy"
+          width="24px"
+          height="24px"
+        />
+      </button>
+      <!-- Hidden header with image -->
+      <header id="home" class="header">
+        <h1 class="header__title">Iryna Karmazinova-Honcharenko</h1>
+        <p>Graphic designer. UI/UX & Web-designer. Illustrator.</p>
+        <img
+          class="header__photo header__photo--hide-large header__photo--hide-small"
+          src="/ikg-portfolio-page/images/main-photo.webp"
+          alt="Profile photo"
+          width="600px"
+          height="800px"
+          loading="lazy"
+        />
+        <img
+          class="header__photo header__photo--hide-large header__photo--hide-medium"
+          src="/ikg-portfolio-page/images/main-photo.webp"
+          alt="Profile photo"
+          width="1000px"
+          height="1333px"
+          aspect-ratio="3/4"
+          loading="lazy"
+        />
+        <a
+          class="main-button main-button--dark"
+          href="/КHІ_designer.pdf"
+          download
+        >
+          <span class="main-button__span">
+            <img
+              class="main-button__span-icon"
+              src="/ikg-portfolio-page/icons/download.svg"
+              alt="Download document icon"
+              width="12px"
+              height="12px"
+              loading="lazy"
+            />Download Resume
+          </span>
+        </a>
+      </header>
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio">
+        <h2 class="portfolio__title section-title">My Portfolio</h2>
+        <hr class="portfolio__divider breaking-line" />
+        <div class="portfolio__gallery gallery">
+          <div class="gallery__col">
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-1.webp"
+                alt="An example of responsive design: a transport company website on different devices."
+                loading="lazy"
+                width="600px"
+                height="400px"
+                data-caption="An example of responsive design: a transport company website on different devices."
+                data-source="/images/gallery/gallery-img-1.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-2.webp"
+                alt="Design of an advertisement banner for an art studio website"
+                loading="lazy"
+                width="600px"
+                height="400px"
+                data-caption="Design of an advertisement banner for an art studio website"
+                data-source="/images/gallery/gallery-img-2.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-3.webp"
+                alt="Sketch of old stairs leading to a door with overgrown plants."
+                loading="lazy"
+                width="600px"
+                height="800px"
+                data-caption="Sketch of old stairs leading to a door with overgrown plants."
+                data-source="/images/gallery/gallery-img-3.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-4.webp"
+                alt="Two still life sketches: meat with Brussels sprouts, half a pumpkin."
+                loading="lazy"
+                width="600px"
+                height="800px"
+                data-caption="Two still life sketches: meat with Brussels sprouts, half a pumpkin."
+                data-source="/images/gallery/gallery-img-4.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-5.webp"
+                alt="Advertising poster for a medical company"
+                loading="lazy"
+                width="600px"
+                height="600px"
+                data-caption="Advertising poster for a medical company"
+                data-source="/images/gallery/gallery-img-5.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-6.webp"
+                alt="Sketches of buildings for tourist postcards"
+                loading="lazy"
+                width="600px"
+                height="700px"
+                data-caption="Sketches of buildings for tourist postcards"
+                data-source="/images/gallery/gallery-img-6.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-7.webp"
+                alt="Watercolor illustrations for the book 'Eyelash Lamination Technology and Botox' by Tatyana Tashuta"
+                loading="lazy"
+                width="600px"
+                height="700px"
+                data-caption="Watercolor illustrations for the book 'Eyelash Lamination Technology and Botox' by Tatyana Tashuta"
+                data-source="/images/gallery/gallery-img-7.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-8.webp"
+                alt="Label for 'Moonshine' alcoholic beverage"
+                loading="lazy"
+                width="600px"
+                height="400px"
+                data-caption="Label for 'Moonshine' alcoholic beverage"
+                data-source="/images/gallery/gallery-img-8.jpg"
+              />
+            </div>
+          </div>
+          <div class="gallery__col">
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-9.webp"
+                alt="Label for 'Moonshine' alcoholic beverage"
+                loading="lazy"
+                width="600px"
+                height="800px"
+                data-caption="Label for 'Moonshine' alcoholic beverage"
+                data-source="/images/gallery/gallery-img-9.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-10.webp"
+                alt="Wall painting in «0057 pizza kharkiv»"
+                loading="lazy"
+                width="600px"
+                height="700px"
+                data-caption="Wall painting in «0057 pizza kharkiv»"
+                data-source="/images/gallery/gallery-img-10.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-11.webp"
+                alt="Wall painting in «0057 pizza kharkiv»"
+                loading="lazy"
+                width="600px"
+                height="800px"
+                data-caption="Wall painting in «0057 pizza kharkiv»"
+                data-source="/images/gallery/gallery-img-11.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-12.webp"
+                alt="Сalendar «Ero Simpsons 2023»"
+                loading="lazy"
+                width="600px"
+                height="400px"
+                data-caption="Сalendar «Ero Simpsons 2023»"
+                data-source="/images/gallery/gallery-img-12.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-13.webp"
+                alt="Greeting card"
+                loading="lazy"
+                width="600px"
+                height="400px"
+                data-caption="Greeting card"
+                data-source="/images/gallery/gallery-img-13.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-14.webp"
+                alt="Greeting card for little girl"
+                loading="lazy"
+                width="600px"
+                height="700px"
+                data-caption="Greeting card for little girl"
+                data-source="/images/gallery/gallery-img-14.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-15.webp"
+                alt="Watercolor sketch of an old house"
+                loading="lazy"
+                width="600px"
+                height="400px"
+                data-caption="Watercolor sketch of an old house"
+                data-source="/images/gallery/gallery-img-15.jpg"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__image"
+                src="/ikg-portfolio-page/images/gallery/gallery-img-16.webp"
+                alt="Stickers for Telegram sticker pack"
+                loading="lazy"
+                width="600px"
+                height="400px"
+                data-caption="Stickers for Telegram sticker pack"
+                data-source="/images/gallery/gallery-img-16.jpg"
+              />
+            </div>
+          </div>
+        </div>
+        <p class="portfolio__text">
+          More projects on
+          <a href="https://www.behance.net/littleiriart">my Behance profile</a>
+        </p>
+      </section>
+      <!-- About Section -->
+      <section id="about" class="about">
+        <h2 class="about__title section-title">About Me</h2>
+        <hr class="about__divider breaking-line" />
+        <p class="about__text">
+          Hi there! I'm Iryna Karmazinova-Honcharenko, a passionate Graphic
+          Designer, UI/UX Designer, and Illustrator. With a creative vision and
+          an eye for detail, I specialize in crafting visually appealing designs
+          that effectively communicate ideas and tell stories.
+        </p>
+        <p class="about__text">
+          My journey in design started with a love for art and creativity, which
+          evolved into a career where I bring concepts to life through digital
+          mediums. Over the years, I've worked on diverse projects, including
+          brand identities, packaging designs, web interfaces, and custom
+          illustrations.
+        </p>
+        <div class="about__services">
+          <h3 class="about__subtitle section-subtitle">What I do:</h3>
+          <p class="about__text">
+            <strong class="accent">Graphic Design:</strong> From logos to social
+            media creatives, I help brands stand out.
+          </p>
+          <p class="about__text">
+            <strong class="accent">UI/UX Design:</strong> Designing intuitive
+            and engaging user experiences for websites and applications.
+          </p>
+          <p class="about__text">
+            <strong class="accent">Illustration:</strong> Crafting unique,
+            hand-drawn visuals to add a personal touch to any project.
+          </p>
+        </div>
+        <div class="about__tools">
+          <h3 class="about__subtitle section-subtitle">Tools I Use</h3>
+          <ul class="about__tools-list">
+            <li class="about__tools-item">
+              <img
+                src="/ikg-portfolio-page/icons/adobe-photoshop-icon.svg"
+                alt="Adobe Photoshop icon"
+                width="36px"
+                height="36px"
+                loading="lazy"
+              />
+              Adobe Photoshop
+            </li>
+            <li class="about__tools-item">
+              <img
+                src="/ikg-portfolio-page/icons/adobe-illustrator-icon.svg"
+                alt="Adobe illustrator icon"
+                width="36px"
+                height="36px"
+                loading="lazy"
+              />
+              Adobe Illustrator
+            </li>
+            <li class="about__tools-item">
+              <img
+                src="/ikg-portfolio-page/icons/adobe-indesign-icon.svg"
+                alt="Adobe InDesign icon"
+                width="36px"
+                height="36px"
+                loading="lazy"
+              />
+              Adobe InDesign
+            </li>
+            <li class="about__tools-item">
+              <img
+                src="/ikg-portfolio-page/icons/figma-icon.svg"
+                alt="Figma icon"
+                width="36px"
+                height="36px"
+                loading="lazy"
+              />
+              Figma
+            </li>
+            <li class="about__tools-item">
+              <img
+                src="/ikg-portfolio-page/icons/procreate-icon.svg"
+                alt="Procreate icon"
+                width="36px"
+                height="36px"
+                loading="lazy"
+              />
+              Procreate
+            </li>
+            <li class="about__tools-item">
+              <img
+                src="/ikg-portfolio-page/icons/adobe-after-effects-icon.svg"
+                alt="Adobe aftereffects icon"
+                width="36px"
+                height="36px"
+                loading="lazy"
+              />
+              Adobe After Effects
+            </li>
+            <li class="about__tools-item">
+              <img
+                src="/ikg-portfolio-page/icons/coreldraw-icon.svg"
+                alt="CorelDRAW icon"
+                width="36px"
+                height="36px"
+                loading="lazy"
+              />
+              CorelDRAW
+            </li>
+            <li class="about__tools-item">
+              <img
+                src="/ikg-portfolio-page/icons/capcut-icon.svg"
+                alt="CapCut icon"
+                width="36px"
+                height="36px"
+                loading="lazy"
+              />
+              CapCut
+            </li>
+          </ul>
+        </div>
+
+        <div class="about__why-me">
+          <h3 class="about__subtitle section-subtitle">Why choose me?</h3>
+          <p class="about__text">
+            I combine technical expertise with creative thinking to deliver
+            designs that are not only beautiful but also purposeful. My approach
+            involves understanding your needs, collaborating closely, and
+            ensuring every detail aligns with your vision.
+          </p>
+        </div>
+
+        <a
+          class="main-button main-button--dark"
+          href="/КHІ_designer.pdf"
+          download
+        >
+          <span class="main-button__span">
+            <img
+              class="main-button__span-icon"
+              src="/ikg-portfolio-page/icons/download.svg"
+              alt="download icon"
+              width="12px"
+              height="12px"
+              loading="lazy"
+            />Download Resume
+          </span>
+        </a>
+      </section>
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <hr class="breaking-line" />
+        <address class="contact__address">
+          <ul class="contact__address-list">
+            <li class="contact__address-item">
+              <a
+                class="contact__address-link--location"
+                href=""
+                noopener
+                noreferrer
+                target="_blank"
+                >Kharkiv, Ukraine</a
+              >
+            </li>
+            <li class="contact__address-item">
+              <a class="contact__address-link--phone" href=""
+                >Phone: +38093-627-07-..</a
+              >
+            </li>
+            <li class="contact__address-item">
+              <a class="contact__address-link--email" href="">
+                Email: mail@mail.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <img
+          src="/ikg-portfolio-page/images/kharkiv-map.webp"
+          alt="map of Kharkiv, Ukraine"
+          width="1100px"
+          aspect-ratio="16/9"
+          loading="lazy"
+        />
+        <p class="contact__text">Let's get in touch! Send me a message:</p>
+        <form id="contact-form" class="contact__form">
+          <input
+            class="contact__form-input"
+            type="text"
+            name="name"
+            placeholder="Name"
+            required
+          />
+          <input
+            class="contact__form-input"
+            type="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+          <input
+            class="contact__form-input"
+            type="text"
+            name="subject"
+            placeholder="Subject"
+            required
+          />
+          <input
+            class="contact__form-input"
+            type="text"
+            name="message"
+            placeholder="Message"
+            required
+          />
+          <button class="main-button main-button--dark" type="submit">
+            <span class="main-button__span"
+              ><img
+                class="main-button__span-icon"
+                src="/ikg-portfolio-page/icons/paper-plane.svg"
+                alt="send icon"
+                loading="lazy"
+                width="16px"
+                height="16px"
+              />SEND MESSAGE</span
+            >
+          </button>
+        </form>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <ul class="footer__social">
+        <li class="footer__social-item">
+          <a
+            class="footer__social-link"
+            href="https://www.instagram.com/littleiriart"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="footer__social-icon">
+              <use href="/ikg-portfolio-page/icons/social-sprite.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a
+            class="footer__social-link"
+            href="https://www.facebook.com/profile.php?id=100009317429756"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="footer__social-icon">
+              <use href="/ikg-portfolio-page/icons/social-sprite.svg#icon-facebook2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a
+            class="footer__social-link"
+            href="https://t.me/littleiriart"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="footer__social-icon">
+              <use href="/ikg-portfolio-page/icons/social-sprite.svg#icon-telegram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a
+            class="footer__social-link"
+            href="https://www.behance.net/littleiriart"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="footer__social-icon">
+              <use href="/ikg-portfolio-page/icons/social-sprite.svg#icon-behance2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a
+            class="footer__social-link"
+            href="https://www.linkedin.com/in/littleiriart/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="footer__social-icon">
+              <use href="/ikg-portfolio-page/icons/social-sprite.svg#icon-linkedin2"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <p class="footer__text">
+        Created by
+        <a
+          href="https://www.linkedin.com/in/olexii-karmazinov-honcharenko-a726b5283/"
+          rel="noopener noreferrer"
+          target="_blank"
+          >O_K-H</a
+        >
+      </p>
+    </footer>
+    <!-- Modal -->
+    <div class="modal overlay">
+      <button class="modal__close-button">
+        <svg class="modal__close-icon">
+          <use href="/ikg-portfolio-page/icons/social-sprite.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="modal__content"></div>
+    </div>
+  </body>
+</html>
